@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="CSV File Import" position="(150, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" title="CSV File Import" version="" />
+		<node id="1" name="Data Table" position="(300, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="2" name="Python Script" position="(450, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" title="Python Script (1)" version="" />
+		<node id="3" name="Data Table" position="(600, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (4)" version="" />
+		<node id="4" name="Select Columns" position="(750, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" title="Select Columns (1)" version="" />
+		<node id="5" name="Data Table" position="(900, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (1)" version="" />
+		<node id="6" name="Scatter Plot" position="(1050, 150)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" title="Scatter Plot" version="" />
+		<node id="7" name="Python Script" position="(459.0, 312.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" title="Python Script" version="" />
+		<node id="8" name="Data Table" position="(620.0, 315.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (2)" version="" />
+		<node id="9" name="Scatter Plot" position="(773.0, 314.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" title="Scatter Plot (1)" version="" />
+		<node id="10" name="Python Script" position="(450.0, 451.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" title="Python Script (2)" version="" />
+		<node id="11" name="Data Table" position="(587.0, 448.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (3)" version="" />
+		<node id="12" name="Scatter Plot" position="(734.0, 450.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" title="Scatter Plot (2)" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="2" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="3" />
+		<link enabled="true" id="4" sink_channel="Data" sink_node_id="5" source_channel="Data" source_node_id="4" />
+		<link enabled="true" id="5" sink_channel="Data" sink_node_id="6" source_channel="Data" source_node_id="5" />
+		<link enabled="true" id="6" sink_channel="Data" sink_node_id="7" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="7" sink_channel="Data" sink_node_id="8" source_channel="Data" source_node_id="7" />
+		<link enabled="true" id="8" sink_channel="Data" sink_node_id="9" source_channel="Data" source_node_id="8" />
+		<link enabled="true" id="9" sink_channel="Data" sink_node_id="10" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="10" sink_channel="Data" sink_node_id="11" source_channel="Data" source_node_id="10" />
+		<link enabled="true" id="11" sink_channel="Data" sink_node_id="12" source_channel="Data" source_node_id="11" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'E:/Projects/orange-data-mining-example/data/quotes-sberbank/SBER_191129_201129.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 9, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'E:/Projects/orange-data-mining-example/data/quotes-sberbank', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x92\x00\x00\x014\x00\x00\x03\xad\x00\x00\x02n\x00\x00\x02\x92\x00\x00\x014\x00\x00\x03\xad\x00\x00\x02n\x00\x00\x00\x00\x00\x00\x00\x00\x06@\x00\x00\x02\x92\x00\x00\x014\x00\x00\x03\xad\x00\x00\x02n', '__version__': 3}</properties>
+		<properties format="literal" node_id="1">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x00\x00\x00\x00\x00\x00\x06@\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca', 'select_rows': True, 'selected_cols': [0, 1, 2, 3, 4, 5, 6, 7, 8], 'selected_rows': [4], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties format="literal" node_id="2">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83\x00\x00\x00\x00\x02\x00\x00\x00\x06@\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83', 'scriptLibrary': [], 'scriptText': "out_data = in_data.copy()\nfor i in range(len(out_data)):\n#    if (i == 0): continue\n    out_data[i]['&lt;CLOSE&gt;'] = (out_data[i]['&lt;CLOSE&gt;'] -  out_data[i]['&lt;OPEN&gt;'])/out_data[i]['&lt;OPEN&gt;']\n    out_data[i]['&lt;HIGH&gt;'] = (out_data[i]['&lt;HIGH&gt;'] -  out_data[i]['&lt;OPEN&gt;'])/out_data[i]['&lt;OPEN&gt;']\n    out_data[i]['&lt;LOW&gt;'] = (out_data[i]['&lt;LOW&gt;'] -  out_data[i]['&lt;OPEN&gt;'])/out_data[i]['&lt;OPEN&gt;']\n", 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01I\x00\x00\x01\xca\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+		<properties format="literal" node_id="3">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x00\x00\x00\x00\x00\x00\x06@\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="4">gASVPAMAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAH0AAAApQAABEsAAAL8AAAB9AAAAKUAAARLAAAC
+/AAAAAAAAAAABkAAAAH0AAAApQAABEsAAAL8lIwSdXNlX2lucHV0X2ZlYXR1cmVzlImMC19fdmVy
+c2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UKIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwH
+Q29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwRZG9tYWluX3JvbGVfaGludHOUfZQojAg8VElD
+S0VSPpRLAYaUjAlhdmFpbGFibGWUSwCGlIwFPFBFUj6USwGGlGgUSwGGlIwGPERBVEU+lEsChpRo
+FEsChpSMBjxUSU1FPpRLAYaUaBRLA4aUjAY8T1BFTj6USwKGlGgUSwSGlIwFPFZPTD6USwKGlGgU
+SwWGlIwIU2VsZWN0ZWSUSwGGlGgUSwaGlIwMU2VsZWN0ZWQgKDEplEsBhpRoFEsHhpSMBTxMT1c+
+lEsChpSMCWF0dHJpYnV0ZZRLAIaUjAY8SElHSD6USwKGlGgtSwGGlIwHPENMT1NFPpRLAoaUaC1L
+AoaUdUr+////hpRoBksBdYwKYXR0cmlidXRlc5R9lChoEksBaBZLAWgZSwJoHEsBaB9LAmgvSwJo
+K0sCaDJLAmgiSwJoJUsBdYwFbWV0YXOUfZRoKEsBc3ViaAspgZR9lChoDn2UKGgQfZQoaBJLAYaU
+aBRLAIaUaBZLAYaUaBRLAYaUaBlLAoaUaBRLAoaUaBxLAYaUaBRLA4aUaB9LAoaUaBRLBIaUaCJL
+AoaUaBRLBYaUaCVLAYaUaBRLBoaUjAxTZWxlY3RlZCAoMSmUSwGGlGgUSweGlGgrSwKGlGgtSwCG
+lGgvSwKGlGgtSwGGlGgySwKGlGgtSwKGlHVK/v///4aUaAZLAXVoNn2UKGgSSwFoFksBaBlLAmgc
+SwFoH0sCaC9LAmgrSwJoMksCaCJLAmglSwF1aDh9lGhMSwFzdWJldS4=
+</properties>
+		<properties format="literal" node_id="5">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x00\x00\x00\x00\x00\x00\x06@\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="6">gASV/QIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAELAAAApQAABTQAAAL8
+AAABCwAAAKUAAAU0AAAC/AAAAAAAAAAABkAAAAELAAAApQAABTQAAAL8lIwJc2VsZWN0aW9ulE6M
+EXRvb2x0aXBfc2hvd3NfYWxslIiMD3Zpc3VhbF9zZXR0aW5nc5R9lIwFZ3JhcGiUfZQojAthbHBo
+YV92YWx1ZZRLgIwNY2xhc3NfZGVuc2l0eZSJjAtqaXR0ZXJfc2l6ZZRLAIwTbGFiZWxfb25seV9z
+ZWxlY3RlZJSJjBZvcnRob25vcm1hbF9yZWdyZXNzaW9ulImMC3BvaW50X3dpZHRolEsKjAlzaG93
+X2dyaWSUiYwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSJdYwLX192ZXJzaW9uX1+USwSM
+EGNvbnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOU
+KYGUfZQojAZ2YWx1ZXOUfZQojAphdHRyX2NvbG9ylIwFPExPVz6US2aGlIwKYXR0cl9sYWJlbJRO
+Sv7///+GlIwKYXR0cl9zaGFwZZROSv7///+GlIwJYXR0cl9zaXpllE5K/v///4aUjAZhdHRyX3iU
+jAc8Q0xPU0U+lEtmhpSMBmF0dHJfeZSMBjxISUdIPpRLZoaUaAp9lGgVSwR1jAphdHRyaWJ1dGVz
+lH2UKGggSwJoLEsCaClLAowIU2VsZWN0ZWSUSwF1jAVtZXRhc5R9lHViaBopgZR9lChoHX2UKGgf
+aCBLZoaUaCJOSv7///+GlGgkTkr+////hpRoJk5K/v///4aUaChoKUtmhpRoK2gsS2aGlGgKfZRo
+FUsEdWgvfZQoaCBLAmgsSwJoKUsCaDFLAXVoMn2UdWJldS4=
+</properties>
+		<properties format="literal" node_id="7">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83\x00\x00\x00\x00\x02\x00\x00\x00\x06@\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83', 'scriptLibrary': [], 'scriptText': 'from Orange.data import *\n\nhigh = ContinuousVariable("HIGH%")\nlow = ContinuousVariable("LOW%")\nclose = ContinuousVariable("CLOSE%")\ndomain = Domain([high, low, close])\n\ndata = []\nfor i in range(len(in_data)):\n    element = []\n    element.append((in_data[i][\'&lt;CLOSE&gt;\'] -  in_data[i][\'&lt;OPEN&gt;\'])/in_data[i][\'&lt;OPEN&gt;\'])\n    element.append((in_data[i][\'&lt;HIGH&gt;\'] -  in_data[i][\'&lt;OPEN&gt;\'])/in_data[i][\'&lt;OPEN&gt;\'])\n    element.append((in_data[i][\'&lt;LOW&gt;\'] -  in_data[i][\'&lt;OPEN&gt;\'])/in_data[i][\'&lt;OPEN&gt;\'])\n    data.append(element)\n    \nprint(data) \n\nout_data = Orange.data.Table.from_list(domain, data)\n\n#print(out_data)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01I\x00\x00\x01\xca\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+		<properties format="literal" node_id="8">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x00\x00\x00\x00\x00\x00\x06@\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="9">gASVkQIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAELAAAApQAABTQAAAL8
+AAABCwAAAKUAAAU0AAAC/AAAAAAAAAAABkAAAAELAAAApQAABTQAAAL8lIwJc2VsZWN0aW9ulE6M
+EXRvb2x0aXBfc2hvd3NfYWxslIiMD3Zpc3VhbF9zZXR0aW5nc5R9lIwFZ3JhcGiUfZQojAthbHBo
+YV92YWx1ZZRLgIwNY2xhc3NfZGVuc2l0eZSJjAtqaXR0ZXJfc2l6ZZRLAIwTbGFiZWxfb25seV9z
+ZWxlY3RlZJSJjBZvcnRob25vcm1hbF9yZWdyZXNzaW9ulImMC3BvaW50X3dpZHRolEsKjAlzaG93
+X2dyaWSUiYwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSJdYwLX192ZXJzaW9uX1+USwSM
+EGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5Qp
+gZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjAZDTE9TRSWUS2aGlIwKYXR0cl9sYWJlbJRO
+Sv7///+GlIwKYXR0cl9zaGFwZZROSv7///+GlIwJYXR0cl9zaXpllE5K/v///4aUjAZhdHRyX3iU
+jAVISUdIJZRLZoaUjAZhdHRyX3mUaCBLZoaUaAp9lGgVSwR1jAphdHRyaWJ1dGVzlH2UKGgpSwKM
+BExPVyWUSwJoIEsCjAhTZWxlY3RlZJRLAXWMBW1ldGFzlH2UdWJhdS4=
+</properties>
+		<properties format="literal" node_id="10">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83\x00\x00\x00\x00\x02\x00\x00\x00\x06@\x00\x00\x00\x00\x00\x00\x005\x00\x00\x06?\x00\x00\x03\x83', 'scriptLibrary': [], 'scriptText': 'from Orange.data import *\n\nclose_previous_name = ContinuousVariable("CLOSE_PREVIOUS")\nclose_current_name = ContinuousVariable("CLOSE_CURRENT")\ndomain = Domain([close_previous_name, close_current_name])\n\ndata = []\nfor i in range(len(in_data)):\n    element = []\n    if (i == 0):\n        close_previous = 0\n        close_current = 0\n    elif (i == 1):\n        close_previous = 0\n        close_current = (in_data[i][\'&lt;CLOSE&gt;\'] -  in_data[i-1][\'&lt;CLOSE&gt;\'])/in_data[i-1][\'&lt;CLOSE&gt;\']\n    else:\n        close_previous = (in_data[i-1][\'&lt;CLOSE&gt;\'] -  in_data[i-2][\'&lt;CLOSE&gt;\'])/in_data[i-2][\'&lt;CLOSE&gt;\']\n        close_current = (in_data[i][\'&lt;CLOSE&gt;\'] -  in_data[i-1][\'&lt;CLOSE&gt;\'])/in_data[i-1][\'&lt;CLOSE&gt;\']\n\n    element.append(close_previous)\n    element.append(close_current)\n    data.append(element)\n\nout_data = Orange.data.Table.from_list(domain, data)\n\nprint(out_data)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01\x80\x00\x00\x01\x93\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+		<properties format="literal" node_id="11">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca\x00\x00\x00\x00\x00\x00\x00\x00\x06@\x00\x00\x01\x90\x00\x00\x00\xd7\x00\x00\x04\xaf\x00\x00\x02\xca', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="12">gASVmAIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAEKAAAAhgAABTUAAAL9
+AAABCwAAAKUAAAU0AAAC/AAAAAAAAAAABkAAAAELAAAApQAABTQAAAL8lIwJc2VsZWN0aW9ulE6M
+EXRvb2x0aXBfc2hvd3NfYWxslIiMD3Zpc3VhbF9zZXR0aW5nc5R9lIwFZ3JhcGiUfZQojAthbHBo
+YV92YWx1ZZRLgIwNY2xhc3NfZGVuc2l0eZSJjAtqaXR0ZXJfc2l6ZZRLAIwTbGFiZWxfb25seV9z
+ZWxlY3RlZJSJjBZvcnRob25vcm1hbF9yZWdyZXNzaW9ulImMC3BvaW50X3dpZHRolEsKjAlzaG93
+X2dyaWSUiYwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSJdYwLX192ZXJzaW9uX1+USwSM
+EGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5Qp
+gZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjA1DTE9TRV9DVVJSRU5UlEtmhpSMCmF0dHJf
+bGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6ZZROSv7///+GlIwG
+YXR0cl94lIwOQ0xPU0VfUFJFVklPVVOUS2aGlIwGYXR0cl95lGggS2aGlGgKfZRoFUsEdYwKYXR0
+cmlidXRlc5R9lChoKUsCaCBLAowIU2VsZWN0ZWSUSwF1jAVtZXRhc5R9lHViYXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
